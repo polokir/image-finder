@@ -1,0 +1,147 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import '~node_modules/modern-normalize/modern-normalize.css';
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #2f2f37;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff6b0a;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #2f2f37;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff6b0a;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+img {
+  width: 396px;
+  display: block;
+  max-width: 100%;
+  height: 265px;
+}
+
+.container {
+  width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-card {
+  flex-basis: 396px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.page-header {
+  background-color: #2813e6;
+  padding: 30px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-up {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.scroll-up:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}/*# sourceMappingURL=index.css.map */

@@ -4,11 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.12.1/simple-lightbox.css" integrity="sha512-BjQ2UJBKmkJynH20LaFAU4E/kOtE7r7it8YvfwhlyGA9HqB6ZQj1Z9d8tN+y3v2RYunBtcQ8NlbNOkXFkLfobQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="./sass/index.css" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+ 
+    <header class="page-header">
+      <div class="container">
+        <form class="search-form" id="search-form">
+          <input
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+    <button class="scroll-up" type="button">UP</button>
+    <div class="container">
+      <div class="gallery">
+        <!-- Картки зображень -->
+      </div>
+    </div>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
