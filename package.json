@@ -1,15 +1,15 @@
 {
-  "name": "goit-js-hw-11",
+  "name": "image-finder",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://polokir.github.io/goit-js-hw-11",
+  "homepage": "https://polokir.github.io/image-finder",
   "scripts": {
     "start": "parcel src/*.html --no-cache",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/*.html --public-url /image-finder/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/polokir/goit-js-hw-11.git"
+    "url": "git+https://github.com/polokir/image-finder.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
